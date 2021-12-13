@@ -2,3 +2,6 @@
 **/out/*
 **/test/*
 **/mock/*
+config
+scripts
+.eslintrc.js

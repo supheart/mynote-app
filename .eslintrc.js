@@ -33,6 +33,8 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint',
+    'prettier',
+    'simple-import-sort',
   ],
   settings: {
     react: {
@@ -55,6 +57,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/no-use-before-define': 0,
     '@typescript-eslint/no-empty-function': 0,
+    '@typescript-eslint/triple-slash-reference': 0,
     '@typescript-eslint/no-unused-vars': [
       2,
       {
